@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        #container {
+
+            display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+            height: 500px;
+            width: 65%;
+            margin: auto;
+            margin-top: 10px;
+            gap: 25px;
+        }
+
+        .head {
+
+            margin: auto;
+            text-align: center;
+            padding: 30px;
+            width: 33%;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #container div {
+            width: 100%;
+            height: 360px;
+            margin: auto;
+            margin-top: 0px;
+            text-align: center;
+            box-shadow: rgb(235, 226, 226) 0px 1px 4px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-family: 'Roboto',
+                sans-serif;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 15px 40px;
+            color: rgb(8, 127, 255);
+            border: 2px solid rgb(0, 122, 255);
+            background-color: white;
+            font-size: 18px;
+            border-radius: 6px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        #container p+p {
+            padding: 20px 50px;
+            padding-bottom: 0px;
+
+
+        }
+
+        #container p {
+            margin-top: -20px;
+        }
+
+        .middle {
+            background-color: rgb(0, 122, 255);
+            color: white;
+            border: none;
+
+        }
+
+        .one {
+            color: rgb(44, 182, 137);
+        }
+
+        .two {
+            color: rgb(242, 127, 68);
+        }
+
+        .three {
+            color: rgb(83, 158, 243);
+        }
+
+        #container p {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        @media all and (min-width: 381px) and (max-width: 700px) {
+           #container {
+                grid-template-columns:repeat(2, 1fr);
+                height:1000px;
+                width:100%;
+            }
+          
+        }
+
+        @media all and (min-width: 50px) and (max-width: 380px) {
+            #container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Choose a plan that right for your business </h1>
+        <p>
+            We collect reviews from our users so you can get an honest opinion of what an experience with our website
+        </p>
+    </div>
+    <div id="container">
+        <div>
+            <h3>Starter Plan</h3>
+            <h2 class="one">Free</h2>
+            <p><i>per month</i></p>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website
+            </p>
+            <button>Start Now</button>
+        </div>
+        <div>
+            <h3>Business plan</h3>
+            <h2 class="two"> $39.00</h2>
+            <p><i>per month</i></p>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website
+            </p>
+            <button class="middle">Start Now</button>
+        </div>
+        <div>
+            <h3>Premium Plan</h3>
+            <h2 class="three">$59.00</h2>
+            <p><i>per month</i></p>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website
+            </p>
+            <button>Start Now</button>
+        </div>
+    </div>
+</body>
+
+</html>

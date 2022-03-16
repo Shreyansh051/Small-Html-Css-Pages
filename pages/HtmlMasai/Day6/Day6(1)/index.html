@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <style>
+    #container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 145px);
+      grid-gap: 27px;
+
+      margin: 0px 130px;
+      margin-top: 30px;
+
+    }
+
+    #container>div {
+
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: rgb(224, 213, 199) 0px 7px 29px 0px;
+
+    }
+
+    #Container>div>div {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: auto auto;
+      padding: 8px;
+
+
+    }
+
+    .innerbox {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+
+    .innerbox+p {
+      margin-left: 20px;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(175, 175, 175);
+
+    }
+
+    .color {
+      color: hsl(38, 46%, 55%)
+    }
+  </style>
+</head>
+
+<body>
+  <!-- dont change any tags and id name -->
+  <!-- use borders to check for boxes -->
+  <!-- main container -->
+  <div id="container">
+    <div>
+      <div class="innerbox">
+        <p>Cappuccino</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Americano</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Espresso</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Macchiato</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Mocha</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Coffee Latte</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Piccolo Latte</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Ristretto</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div>
+      <div class="innerbox">
+        <p>Affogato</p>
+        <p class="color">$49</p>
+      </div>
+      <p>Usage of the internet is becoming more common due to rapid advance.</p>
+    </div>
+  </div>
+</body>
+
+</html>

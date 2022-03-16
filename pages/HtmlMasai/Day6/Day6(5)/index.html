@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            gap: 20px;
+            grid-template-areas:
+                "a a b b"
+                "e f f f"
+                "i i i i";
+            margin-left: 80px;
+        }
+
+        .container>div {
+
+
+
+            border-radius: 5px;
+
+
+        }
+
+        .a {
+            background-color: #444444;
+            grid-area: a;
+        }
+
+        .b {
+            background-color: #444444;
+            grid-area: b;
+        }
+
+        .c {
+            background-color: #444444;
+            grid-area: c;
+        }
+
+        .d {
+            background-color: #444444;
+            grid-area: d;
+        }
+
+        .e {
+            background-color: #444444;
+            grid-area: e;
+        }
+
+        .f {
+            background-color: #444444;
+            grid-area: f;
+        }
+
+        .g {
+            background-color: #444444;
+            grid-area: g;
+        }
+
+        .h {
+            background-color: #444444;
+            grid-area: h;
+        }
+
+        .i {
+            background-color: #444444;
+            grid-area: i;
+        }
+
+        .j {
+            background-color: #444444;
+            grid-area: j;
+        }
+
+        .k {
+            background-color: #444444;
+            grid-area: k;
+        }
+
+        .l {
+            background-color: #444444;
+            grid-area: l;
+        }
+
+        .container>div {
+            font-size: 50px;
+            color: white;
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" div>
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e">C</div>
+        <div class="f">D</div>
+        <div class="g"></div>
+        <div class="h"></div>
+        <div class="i">I</div>
+        <div class="j"></div>
+        <div class="k"></div>
+        <div class="l"></div>
+    </div>
+
+</body>
+
+</html>
