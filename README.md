@@ -1,2 +1,3 @@
 # Small-Html-Css-Pages
-These all  are a small pages created  when i started html,css learning 
+These all  small pages created  when I started learning  html,css .
+all are from day1 when starting I was learning.
